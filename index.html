@@ -1,1 +1,115 @@
+ <nav aria-label="Primary">
+    <a href="#projects">Projects</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a class="cta" href="#projects">View Work</a>
+  </nav>
+</header>
 
+<main>
+  <section id="hero" class="hero" aria-labelledby="hero-heading">
+    <div class="intro">
+      <h1 id="hero-heading">Hi — I'm Jomar. I build delightful web experiences.</h1>
+      <p class="muted">I design and develop responsive, accessible websites and apps. I focus on performance, maintainability, and great UX.</p>
+      <div class="hero-actions">
+        <a class="btn" href="#projects">See projects</a>
+        <a class="btn" href="#contact">Get in touch</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="two-col">
+    <section aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Selected Projects</h2>
+      <p class="muted small">A few recent things I've shipped. Click View to see code or demo.</p>
+
+      <div id="projects" class="projects" aria-live="polite">
+        <article class="card" aria-labelledby="p1">
+          <img src="https://via.placeholder.com/600x300?text=Project+1" alt="Screenshot for Project One">
+          <h3 id="p1">Project One — UI Library</h3>
+          <p class="muted">A small, accessible component library for forms and layout used across multiple sites.</p>
+          <div class="card-links">
+            <a class="btn" href="#" aria-label="View project one demo">Demo</a>
+            <a class="btn" href="#" aria-label="View project one code">Code</a>
+          </div>
+        </article>
+
+        <article class="card" aria-labelledby="p2">
+          <img src="https://via.placeholder.com/600x300?text=Project+2" alt="Screenshot for Project Two">
+          <h3 id="p2">Project Two — Marketing Site</h3>
+          <p class="muted">High-performance marketing site built with static rendering and optimized images.</p>
+          <div class="card-links">
+            <a class="btn" href="#">Demo</a>
+            <a class="btn" href="#">Code</a>
+          </div>
+        </article>
+
+        <article class="card" aria-labelledby="p3">
+          <img src="https://via.placeholder.com/600x300?text=Project+3" alt="Screenshot for Project Three">
+          <h3 id="p3">Project Three — Dashboard</h3>
+          <p class="muted">Internal dashboard with real-time charts and role-based access control.</p>
+          <div class="card-links">
+            <a class="btn" href="#">Demo</a>
+            <a class="btn" href="#">Code</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <aside aria-labelledby="about">
+      <h3 id="about">About</h3>
+      <div class="stack">
+        <p class="muted small">I'm a front-end developer who loves crafting interfaces, optimizing UX, and learning new technologies. I usually work with HTML, CSS, JavaScript, and modern frameworks.</p>
+        <div>
+          <strong>Skills</strong>
+          <div class="muted small">HTML • CSS • JS • React • Node • Accessibility • Performance</div>
+        </div>
+
+        <div>
+          <strong>Contact</strong>
+          <div class="muted small">Email: <a href="mailto:your.email@example.com" style="color:var(--accent)">your.email@example.com</a></div>
+        </div>
+
+        <div>
+          <strong>Social</strong>
+          <div class="row muted small">
+            <a href="#" aria-label="GitHub profile" style="color:var(--muted)">GitHub</a>
+            <a href="#" aria-label="LinkedIn profile" style="color:var(--muted)">LinkedIn</a>
+            <a href="#" aria-label="Twitter profile" style="color:var(--muted)">Twitter</a>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <section id="contact" aria-labelledby="contact-heading" class="card" style="margin-top:6px">
+    <h3 id="contact-heading">Contact</h3>
+    <p class="muted small">Have a project or want to chat? Send a message — I'll usually reply within a few days.</p>
+
+    <!-- Example contact form. Swap action to your form backend or Formspree / Netlify Forms. -->
+    <form id="contact-form" class="stack" action="https://formspree.io/f/your-form-id" method="POST">
+      <label class="stack">
+        <span class="small muted">Name</span>
+        <input name="name" type="text" placeholder="Your name" required style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit">
+      </label>
+      <label class="stack">
+        <span class="small muted">Email</span>
+        <input name="email" type="email" placeholder="you@example.com" required style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit">
+      </label>
+      <label class="stack">
+        <span class="small muted">Message</span>
+        <textarea name="message" rows="5" placeholder="Tell me about the project..." required style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit"></textarea>
+      </label>
+
+      <div class="row">
+        <button type="submit" class="cta">Send message</button>
+        <div class="muted small">or <a href="mailto:your.email@example.com" style="color:var(--accent)">email me directly</a></div>
+      </div>
+    </form>
+  </section>
+
+  <footer>
+    <div class="muted small">© <span id="year"></span> Jomar Lub — Built with care</div>
+    <div class="muted small">Made with HTML, CSS, JS — Hosted on GitHub Pages</div>
+  </footer>
+</main>
