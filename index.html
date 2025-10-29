@@ -3,36 +3,75 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jomar Lubin | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Portfolio | Jomar</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Jomar Lubin</h1>
-    <p>Computer Science Student | Developer | Learner</p>
-    <p>Specializing in Backend | AI Machine Learning</p>
+    <h2>Jomar</h2>
+    <nav id="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div id="menu-toggle">☰</div>
   </header>
 
+  <section id="home" class="hero">
+    <h1>Jomar</h1>
+    <h3>Computer Science Student</h3>
+    <p>Welcome to my portfolio! I'm passionate about building modern tech projects and exploring the intersection of software, cybersecurity, and AI.</p>
+  </section>
+
   <section id="about">
-    <h2>About Me</h2>
-    <p>Hello! I’m Jomar, a computer science student passionate about building, learning, and exploring technology.</p>
+    <h2>About</h2>
+    <p>I’m a computer science student with a strong interest in cybersecurity and software development. I love learning new technologies, tackling real-world problems, and constantly improving my skills through projects and collaboration.</p>
   </section>
 
   <section id="projects">
     <h2>Projects</h2>
-    <ul>
-      <li><strong>Portfolio Website:</strong> The page you’re on right now — built and hosted with GitHub Pages.</li>
-      <li><strong>Outfit Genarator:</strong> I despise choosing what to wear everyday, so I am creating an Outfit Genarator to do the job</li>
-    </ul>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio built from scratch with HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project-card">
+        <h3>AI Outfit Recommender</h3>
+        <p>A Java-based application that suggests outfit combinations using image input and AI logic.</p>
+      </div>
+      <div class="project-card">
+        <h3>Calendar To-Do App</h3>
+        <p>An iOS app built with Swift that integrates scheduling, notes, and intelligent reminders.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div class="skill">Python</div>
+      <div class="skill">Java</div>
+      <div class="skill">C++</div>
+      <div class="skill">HTML/CSS/JS</div>
+      <div class="skill">Swift</div>
+      <div class="skill">Linux & Cybersecurity</div>
+    </div>
   </section>
 
   <section id="contact">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:jomar@example.com">jomarlubin17@icloud.com</a></p>
+    <p>Feel free to reach out for collaboration or opportunities!</p>
+    <p>Email: <a href="mailto:youremail@example.com" style="color:var(--accent-color)">youremail@example.com</a></p>
   </section>
 
   <footer>
-    <p>© 2025 Jomar Lubin</p>
+    <p>© 2025 Jomar | Computer Science Portfolio</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
+
+
