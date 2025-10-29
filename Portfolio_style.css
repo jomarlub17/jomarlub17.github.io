@@ -1,0 +1,214 @@
+/* this section is for portfolio.html use ids and classes to avoid confusion*/
+.title{
+    text-align:justify;
+    font-weight: 600;
+    font-family: fantasy;
+    color:aquamarine;
+
+
+}
+body{
+    background-color: darkblue;
+    background-image: url(background.jpeg);
+    background-repeat:no-repeat;
+    height: auto;
+    width: inherit;
+        
+        
+    
+}
+
+.description{
+    color:white;
+    font-family:fantasy;
+    padding: 200px 300px;
+    margin: 1px ;
+    background-image:url(Jomar_profile.png);
+    background-repeat:no-repeat;
+    background-size: 1000px auto;
+    width:400px;
+    height: 400px;
+    font-size: 30px;
+    border: 5px solid royalblue;
+    text-align: justify
+    
+}
+.links{
+    color:aquamarine;
+    font-family: fantasy;
+    position:fixed;
+    top:0px;
+    bottom 0px;
+    left: 1200px;
+    display:inline-block;
+
+    
+}
+#home{
+    margin: 2px auto;   
+    width:100%;
+    height:10px;
+    background-color:aquamarine;
+    float:left;
+    padding:10px;
+    border:2px solid royalblue;
+    text-align: justify;
+
+}
+#resume{
+    margin: 2px auto;    
+    width:100%;
+    height:10px;
+    background-color:aquamarine;
+    float:left;
+    padding:10px;
+    border:2px solid royalblue;
+    text-align: justify;
+    animation
+     
+}
+#aboutMe{
+    margin: 2px auto;   
+    width:100%;
+    height:10px;
+    background-color:aquamarine;
+    float:left;
+    padding:10px;
+    border:2px solid royalblue;
+    text-align: justify;
+     
+}
+#linkedin{
+     margin: 2px auto;   
+    width:100%;
+    height:10px;
+    background-color:aquamarine;
+    float:left;
+    padding:10px;
+    border:2px solid royaleblue;
+    text-align: justify;
+    
+        
+}
+/*this section is for AboutMe.html use id's and classes to avoid confusion */
+.whoAmI{
+    color:aquamarine;
+    font-family:fantasy;
+}
+.interests{
+    color:;
+    font-family:fantasy
+}
+.caption{
+    color:aqua;
+    font-family:fantasy;
+}
+#honda{
+    width: auto;
+    height: 500px;
+    border:5px solid royalblue;
+}
+.hobbies {
+   color:aquamarine;
+    font-family: fantasy;
+     
+}
+#coral{color:coral}
+.goals{
+    color:aquamarine;
+    font-family: fantasy;
+    
+}
+/*this section is for Resume.html use ids and classes to avoid confusion*/
+.info{
+    color:aquamarine;
+    font-family: fantasy;
+    
+}
+.summary{
+    color:aquamarine;
+    font-family: fantasy;
+    
+}
+.skills{
+   color:aquamarine;
+    font-family: fantasy;
+     
+}
+.experience{
+    color:aquamarine;
+    font-family: fantasy;
+    
+}
+.education{
+   color:aquamarine;
+    font-family: fantasy;
+     
+}
+.certification{
+  color:aquamarine;
+    font-family: fantasy;
+      
+}
+.language{
+    color:aquamarine;
+    font-family: fantasy;
+    
+}
+/*this section is for everything in general don't use ids and classes*/
+
+h1{
+color:aquamarine;
+    font-family: fantasy;
+    
+}
+h2{
+  color:aquamarine;
+    font-family: fantasy;
+      
+}
+h3{
+   color:aquamarine;
+    font-family: fantasy;
+     
+}
+p{
+  color:aquamarine;
+    font-family: fantasy;
+      
+}
+
+li{
+    color:aquamarine;
+    font-family: fantasy;
+    
+}
+ul{
+    color:aquamarine;
+    font-family: fantasy;
+    
+}
+ol{
+    color:aquamarine;
+    font-family: fantasy;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
